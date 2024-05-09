@@ -17,6 +17,21 @@ from ANNIECHATBOT.modules.helpers import (
     HELP_START,
 )
 
+
+# Random start videos
+ANNIE_VID = [
+    "https://telegra.ph/file/8b3840f33f734f1b503c7.mp4",
+    "https://telegra.ph/file/ccf61953b8952b75bf303.mp4",
+    "https://telegra.ph/file/8b3840f33f734f1b503c7.mp4",
+    "https://telegra.ph/file/ccf61953b8952b75bf303.mp4",
+    "https://telegra.ph/file/8b3840f33f734f1b503c7.mp4",
+    "https://telegra.ph/file/ccf61953b8952b75bf303.mp4",
+    "https://telegra.ph/file/8b3840f33f734f1b503c7.mp4",
+    "https://telegra.ph/file/ccf61953b8952b75bf303.mp4",
+    "https://telegra.ph/file/8b3840f33f734f1b503c7.mp4",
+    "https://telegra.ph/file/ccf61953b8952b75bf303.mp4"
+]
+
 # Command handler for /help
 @app.on_cmd("help")
 async def help_command_handler(_, m: Message):
