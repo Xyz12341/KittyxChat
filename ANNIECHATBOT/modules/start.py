@@ -22,16 +22,16 @@ from ANNIECHATBOT.modules.helpers import (
 
 # Random start videos
 ANNIE_VID = [
-    "https://telegra.ph/file/9b7e1b820c72a14d90be7.mp4",
-    "https://telegra.ph/file/a4d90b0cb759b67d68644.mp4",
-    "https://telegra.ph/file/72f349b1386d6d9374a38.mp4",
-    "https://telegra.ph/file/2b75449612172a96d4599.mp4",
-    "https://telegra.ph/file/b3ac2d77205d5ded860de.mp4",
-    "https://telegra.ph/file/58ae4ac86ef70dc8c8f6a.mp4",
-    "https://telegra.ph/file/c6c1ac9aee4192a8a3747.mp4",
-    "https://telegra.ph/file/55c840c8eba0555318f0d.mp4",
-    "https://telegra.ph/file/e97715885d0a0cfbddaaa.mp4",
-    "https://telegra.ph/file/943bb99829ec526c3f99a.mp4"
+    "https://telegra.ph/file/8b3840f33f734f1b503c7.mp4",
+    "https://telegra.ph/file/ccf61953b8952b75bf303.mp4",
+    "https://telegra.ph/file/8b3840f33f734f1b503c7.mp4",
+    "https://telegra.ph/file/ccf61953b8952b75bf303.mp4",
+    "https://telegra.ph/file/8b3840f33f734f1b503c7.mp4",
+    "https://telegra.ph/file/ccf61953b8952b75bf303.mp4",
+    "https://telegra.ph/file/8b3840f33f734f1b503c7.mp4",
+    "https://telegra.ph/file/ccf61953b8952b75bf303.mp4",
+    "https://telegra.ph/file/8b3840f33f734f1b503c7.mp4",
+    "https://telegra.ph/file/ccf61953b8952b75bf303.mp4"
 ]
 
 # Random stickers
@@ -52,11 +52,11 @@ async def start_command_handler(_, m: Message):
         # Display loading messages
         accha = await m.reply_text(text=random.choice(EMOJIOS))
         await asyncio.sleep(1.3)
-        await accha.edit("🏓ᴀɴɴɪᴇ..ᴍᴇᴇɴʏ..ᴍɪɴʏ..ᴍᴏᴇ✨")
+        await accha.edit("🏓ᴋɪᴛᴛʏ..ᴍᴇᴇɴʏ..ᴍɪɴʏ..ᴍᴏᴇ✨")
         await asyncio.sleep(0.2)
-        await accha.edit("__ᴀɴɴɪᴇ..ᴍᴇᴇɴʏ ꨄ sтαятιиg.....__")
+        await accha.edit("ᴋɪᴛᴛʏ..ᴍᴇᴇɴʏ ꨄ sтαятιиg.....__")
         await asyncio.sleep(0.2)
-        await accha.edit("__ꪖꪀꪀ𝓲ꫀ ꨄ︎ sтαятιиg..__")
+        await accha.edit("__ᴋɪᴛᴛʏ ꨄ︎ sтαятιиg..__")
         await asyncio.sleep(0.2)
         await accha.delete()
 
@@ -112,15 +112,15 @@ async def repo_command_handler(_, m: Message):
 ##########################################################
 
 WELCOME_IMG = [
-    "https://telegra.ph/file/61670d3373f2c8bdc2bcb.png",
-    "https://telegra.ph/file/74d333a2eb853d6d340e5.png",
-    "https://telegra.ph/file/e29c7352ac8a29c6d7d1c.png",
-    "https://telegra.ph/file/024c4d788089a549f7c18.png",
-    "https://telegra.ph/file/21a6c46b6b997c9baa507.png",
-    "https://telegra.ph/file/e4205a5896e9cd1354df4.png",
-    "https://telegra.ph/file/ceaee4640a3af5acdb717.png",
-    "https://telegra.ph/file/98f40c919b0598586d697.png",
-    "https://graph.org/file/36af423228372b8899f20.jpg",
+    "https://telegra.ph/file/3eb5af1f3c31bf68073f6.jpg",
+    "https://telegra.ph/file/3eb5af1f3c31bf68073f6.jpg",
+    "https://telegra.ph/file/3eb5af1f3c31bf68073f6.jpg",
+    "https://telegra.ph/file/3eb5af1f3c31bf68073f6.jpg",
+    "https://telegra.ph/file/3eb5af1f3c31bf68073f6.jpg",
+    "https://telegra.ph/file/3eb5af1f3c31bf68073f6.jpg",
+    "https://telegra.ph/file/3eb5af1f3c31bf68073f6.jpg",
+    "https://telegra.ph/file/3eb5af1f3c31bf68073f6.jpg",
+    "https://telegra.ph/file/3eb5af1f3c31bf68073f6.jpg",
 ]
 
 WELCOME_TXT= "ᴀᴀ ɢʏᴇ ᴀᴀᴘ💗 , ᴀᴀᴘ ʜɪ ᴋᴀ ɪɴᴛᴢᴀᴀʀ ᴛʜᴀ...ᴀʙʙ ᴊᴀɴᴀ ᴍᴀᴛ ᴋᴀʜɪ ʏʜɪ ʀᴀʜᴏ ᴀᴜʀ ᴍᴇʀᴇ sᴀᴛʜ ᴄʜᴀᴛᴛɪɴɢ ᴋʀᴏ🤭🫠😅"
