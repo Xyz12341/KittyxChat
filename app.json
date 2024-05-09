@@ -46,7 +46,7 @@
     "GPT_API": {
       "description": "Your GPT API Key from OpenAI.",
       "value": "",
-      "required": true
+      "required": false
     },
     "SUPPORT_GROUP": {
       "description": "Name of the support group",
