@@ -19,7 +19,7 @@ DEV_OP = [
         InlineKeyboardButton(text="☁️ ᴀʙᴏᴜᴛ ☁️", callback_data="ABOUT"),
     ],
     [
-        InlineKeyboardButton(text="🥀 ᴏᴡɴᴇʀ 🥀", user_id=OWNER),
+        InlineKeyboardButton(text="🥀 🇲σ᭡፝֟ɳ🌙 🥀", user_id=OWNER),
         InlineKeyboardButton(text="✨ ꜱᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/{SUPPORT_GROUP}"),
     ],
 ]
@@ -119,7 +119,7 @@ ABOUT_BTN = [
         InlineKeyboardButton(text="« ʜᴇʟᴘ »", callback_data="HELP"),
     ],
     [
-        InlineKeyboardButton(text="🍾 ᴏᴡɴᴇʀ 🍾", user_id=OWNER),
+        InlineKeyboardButton(text="🍾 🇲σ᭡፝֟ɳ🌙 🍾", user_id=OWNER),
         InlineKeyboardButton(text="❄️ sᴏᴜʀᴄᴇ ❄️", callback_data="SOURCE"),
     ],
     [
